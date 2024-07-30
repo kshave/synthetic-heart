@@ -30,6 +30,10 @@ RUN cd agent && go mod download
 
 COPY . .
 
+# Set GOOS and GOARCH
+ENV GOOS=linux
+ENV GOARCH=amd64
+
 # Build the binary
 RUN mkdir -p /app/synthetic-heart/
 RUN touch /app/synthetic-heart/.emptyfile

@@ -85,6 +85,9 @@ Prerequisites:
 
 Steps to follow:
 
+- If one is not already present, create a new namespace for synthetic-heart
+  - Run: `kubectl create namespace synthetic-heart-system`
+  - This creates a namespace where the synthetic-heart resources will be installed 
 - Install the [synthetic-heart](./chart/synthetic-heart) Helm chart
   - Run: `helm upgrade -i synthetic-heart-system -n synthetic-heart-system .` in `charts/` directory.
   - This installs the RestAPI, Agents (as DaemonSet), Controller, and Redis.
