@@ -1,6 +1,6 @@
 module github.com/cisco-open/synthetic-heart/restapi
 
-go 1.24.4
+go 1.24.6
 
 require (
 	github.com/cisco-open/synthetic-heart/common v0.0.0-00010101000000-000000000000
@@ -29,8 +29,8 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/oklog/run v1.0.0 // indirect
 	golang.org/x/net v0.38.0 // indirect
-	golang.org/x/sys v0.20.0 // indirect
-	golang.org/x/text v0.15.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	google.golang.org/genproto v0.0.0-20210402141018-6c239bbf2bb1 // indirect
 	google.golang.org/grpc v1.65.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
